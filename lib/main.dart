@@ -15,6 +15,8 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   final _deviceSupport = FlutterQiblah.androidDeviceSensorSupport();
+  String lat;
+  String lon;
   int compassType;
   @override
   void initState() {

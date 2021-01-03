@@ -184,6 +184,8 @@ class _QiblahCompassWidgetState extends State<QiblahCompassWidget> {
           return LoadingIndicator();
 
         final qiblahDirection = snapshot.data;
+        print(qiblahDirection.direction);
+        print(qiblahDirection.qiblah);
 
         return Column(
           children: [
